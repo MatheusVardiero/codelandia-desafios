@@ -1,4 +1,6 @@
 const cards = document.querySelectorAll('.cards');
+const resetColor = document.querySelector('#btnReset');
+const main = document.querySelector('.main');
 
 cards.forEach(card => {
   card.addEventListener('click', changeBackgroundColor);
@@ -8,10 +10,12 @@ cards.forEach(card => {
 })
 
 function changeBackgroundColor() {
-  let main = document.querySelector('.main');
   const _this = this;
   const color = _this.querySelector('.card-color').getAttribute('data-background');
 
   main.style.backgroundColor = color;
-
 }
+
+resetColor.addEventListener('click', resetBackgroundColor => {
+  main.style.backgroundColor = '#FFFFFF';
+})
