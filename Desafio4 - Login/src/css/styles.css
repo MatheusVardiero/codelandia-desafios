@@ -1,0 +1,196 @@
+/*Variáveis*/
+:root {
+  --green: #04c35c;
+  --blue: #2b6cb0;
+
+  --white: #ffffff;
+  --white300: #f7fafc;
+
+  --dark: #1a202c;
+  --input: #e8e8e8;
+}
+
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+button,
+input {
+  border: 0;
+}
+button:focus,
+input:focus {
+  border: 0;
+}
+
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url(../fonts/Lato-Bold.ttf) format('truetype'); 
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url(../fonts/Lato-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Merriweather-Regular';
+  src: url(../fonts/Merriweather-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+
+.main {
+  display: flex;
+}
+
+.container-img {
+  background-color: var(--white300);
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-img img {
+  width: 60%;
+}
+
+.flex-container-login {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-login {
+  width: 50%;
+}
+
+.login-title {
+  margin-bottom: 10%;
+}
+
+.login-title p {
+  font-family: 'Merriweather-Regular', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: var(--dark);
+  margin-bottom: 2%;
+}
+
+.login-title h1 {
+  font-family: 'Merriweather-Regular', Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.login-email-password {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-email-password label {
+  font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-bottom: 2%;
+}
+
+.login-email-password input {
+  font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: var(--dark);
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  width: 350px;
+  max-width: 350px;
+  height: 50px;
+  padding: 20px;
+  margin-bottom: 5%;
+}
+
+.forgot-password {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.forgot-password input {
+  width: auto;
+  height: auto;
+}
+
+.forgot-password label {
+  
+}
+
+.forgot-password label, .forgot-password a {
+  font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#btnEntrar {
+  width: 350px;
+  height: 50px;
+  font-family: 'Lato-Bold', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: var(--green);
+  color: var(--white);
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+
+#btnLoginGoogle {
+  width: 350px;
+  height: 50px;
+  font-family: 'Lato-Bold', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: var(--dark);
+  color: var(--white);
+  border-radius: 5px;
+}
+
+.register {
+  position: absolute;
+  margin-top: 32%;
+  margin-left: 5%;
+}
+
+.register p, .register a {
+  font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
