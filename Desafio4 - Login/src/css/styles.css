@@ -98,10 +98,6 @@ input:focus {
   align-items: center;
 }
 
-.container-login {
-  /* width: 50%; */
-}
-
 .login-title {
   margin-bottom: 10%;
   min-width: 350px;
