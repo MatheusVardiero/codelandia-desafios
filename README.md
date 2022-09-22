@@ -1,4 +1,4 @@
-# Projetos/Desafios Front-End do canal Codelandia, realizados por mim!
+# Projetos/Desafios Front-End do canal Codelandia, refeitos por mim!
 
 ## Projeto 1 - Blog
 <img src = https://user-images.githubusercontent.com/86636949/186952210-2c064744-861c-475f-8013-5480e344f355.png width='500px' />
